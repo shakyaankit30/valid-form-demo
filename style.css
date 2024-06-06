@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins:wght@300&family=Prata&family=Raleway&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.formbox{
+    border: 2px dashed #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.forms label{
+    font-size: 18px;
+    font-weight: 400;
+}
+.forms .form-control{
+    border: 1px solid #000;
+    border-radius: 0;
+}
+
+.forms .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #000;
+}
+
+span sup{
+    color: red;
+}
+
+.validationfail{
+	border: 1px solid #ff0202 !important;
+}
+.alert_msg{
+	color: red;
+}
